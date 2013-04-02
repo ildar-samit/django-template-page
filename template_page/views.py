@@ -34,6 +34,5 @@ class TemplatePageMixin(object):
 
 class TemplatePageView(TemplatePageMixin, TemplateView):
     """
-    Simple view with a default ``template_dir``.
+    This view can be subclassed instead of using a mixin, if desired.
     """
-    template_dir = 'templatepages/'

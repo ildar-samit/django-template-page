@@ -27,6 +27,6 @@ Usage
 
 
     class PublicTemplatePageView(TemplatePageView):
-        template_dir = 'publicsite/templatepages/'
+        template_dir = 'publicsite/template_pages/'
 
-Then the ``publicsite/templatepages/`` directory must contain a template file for each page that shouldn't raise a 404 Page Not Found error. For example, the URL ``/pages/hello/world`` would look for a template named ``publicsite/templatepages/hello/world.html``
+Then the ``publicsite/template_pages/`` directory must contain a template file for each page that shouldn't raise a 404 Page Not Found error. For example, the URL ``/pages/hello/world`` would look for a template named ``publicsite/template_pages/hello/world.html``
